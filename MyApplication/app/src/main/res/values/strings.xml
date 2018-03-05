@@ -1,0 +1,86 @@
+<resources>
+    <item name="visible" type="id"/>
+    <item name="masked" type="id"/>
+    <string name="app_name">桃樂比幼兒園</string>
+    <string name="action_settings">登出</string>
+    <string name="user_profile_name">使用者名稱(EMAIL)</string>
+    <string name="title_activity_jkklln">jkklln</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="schedule_input_you_do_thing">輸入要做的事項</string>
+
+    <string name="calendar_today">今天</string>
+    <string-array name="calendar_month">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <string-array name="calendar_week">
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </string-array>
+    <string name="calendar_day">%d day</string>
+    <string name="calendar_year">%d-</string>
+    <style name="action_bar_size"></style>
+    <string name="button_ok">OK</string>
+    <string name="internet_connection_failed">請檢查網路連接</string>
+    <string name="now_time_range">now</string>
+    <string name="duration_minutes_shortest">%1$d m</string>
+    <string name="duration_hours_shortest">%1$d h</string>
+    <string name="duration_days_shortest">%1$d d</string>
+    <string name="duration_week_shortest">%1$d w</string>
+    <string name="error_general_post">Somthing went wrong with post, id: %1$s</string>
+    <string name="permission_denied_error">Please check your rules to access the Firebase Realtime Database</string>
+    <string name="error_general">Somthing went wrong.</string>
+    <string name="error_bigger_file">File size is bigger than 10Mb</string>
+    <string name="error_incorrect_file_type">Incorrect file type</string>
+    <string name="permissions_not_granted">Cancelling, required permissions are not granted</string>
+    <string name="error_smaller_image">Image is too small. Required image size 100x100 px</string>
+    <string name="error_fail_crop_image">Fail to crop image</string>
+    <string name="warning_empty_description">Description is required</string>
+    <string name="warning_empty_image">Image is required</string>
+    <string name="warning_empty_title">Title is required</string>
+    <string name="error_post_title_length">Max length of the title should be less than 255 symbols</string>
+    <string name="message_creating_post">Creating post ..</string>
+    <string name="error_fail_create_post">Fail to create post</string>
+    <string name="message_post_was_removed">Post was removed</string>
+    <string name="title_edit_comment">Edit comment</string>
+    <string name="button_title_save">Done</string>
+    <string name="button_title_cancel">Cancel</string>
+    <string name="error_fail_update_post">Fail to update post</string>
+    <string name="error_post_was_removed">Post was removed</string>
+    <string name="error_fail_remove_post">Fail to remove post</string>
+    <string name="label_comments">Comments (%1$d):</string>
+    <string name="post_author_image_transition_name" translatable="false">post_author_image_transition_name</string>
+    <string name="post_image_transition_name" translatable="false">post_image_transition</string>
+    <plurals name="new_posts_counter_format">
+        <item quantity="one">%1$d new post</item>
+        <item quantity="other">%1$d new posts</item>
+    </plurals>
+    <plurals name="posts_counter_format">
+        <item quantity="one">post</item>
+        <item quantity="other">posts</item>
+    </plurals>
+    <plurals name="likes_counter_format">
+        <item quantity="one">like</item>
+        <item quantity="other">likes</item>
+    </plurals>
+    <string name="message_post_was_created">Post was created</string>
+    <string name="storage_link">gs://androidpackages-e5a5c.appspot.com</string>
+
+</resources>

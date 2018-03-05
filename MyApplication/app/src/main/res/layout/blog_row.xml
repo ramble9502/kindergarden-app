@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <ImageView
+                android:id="@+id/userphoto"
+                android:layout_width="54dp"
+                android:layout_height="35dp"
+                android:src="@drawable/profile_photo"/>
+            <TextView
+                android:id="@+id/post_username"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:hint="使用者名稱"
+                android:textColor="#1E4760"
+                android:gravity="center_vertical"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/post_time"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="right|center_vertical"
+                android:hint="時間：yyyy-mm-dd"
+                android:textSize="14sp"
+                android:textColor="@color/grey_500"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/post_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="主要標題"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/post_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="相關於標題的描述"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="14sp"
+            android:maxLines="10" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageButton
+                android:id="@+id/favorite_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:background="@android:drawable/screen_background_light_transparent"
+                app:srcCompat="@mipmap/icon_heart_black" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/post_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/add_btn" />
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

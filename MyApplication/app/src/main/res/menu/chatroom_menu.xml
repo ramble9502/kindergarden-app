@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_item_share"
+        android:title="Group"
+        app:showAsAction="always"
+        android:icon="@mipmap/icon_group" />
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/icons8_logout"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+</menu>

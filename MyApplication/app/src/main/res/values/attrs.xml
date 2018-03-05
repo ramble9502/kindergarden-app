@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WeekBarView">
+        <attr name="week_text_color" format="color" />
+        <attr name="week_text_size" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="MonthCalendarView">
+        <attr name="month_selected_text_color" format="color" />
+        <attr name="month_selected_circle_color" format="color" />
+        <attr name="month_selected_circle_today_color" format="color" />
+        <attr name="month_normal_text_color" format="color" />
+        <attr name="month_today_text_color" format="color" />
+        <attr name="month_lunar_text_color" format="color" />
+        <attr name="month_hint_circle_color" format="color" />
+        <attr name="month_holiday_color" format="color" />
+        <attr name="month_last_or_next_month_text_color" format="color" />
+        <attr name="month_day_text_size" format="integer" />
+        <attr name="month_day_lunar_text_size" format="integer" />
+        <attr name="month_show_task_hint" format="boolean" />
+        <attr name="month_show_lunar" format="boolean" />
+        <attr name="month_show_holiday_hint" format="boolean" />
+        <attr name="month_count" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="WeekCalendarView">
+        <attr name="week_selected_text_color" format="color" />
+        <attr name="week_selected_circle_color" format="color" />
+        <attr name="week_selected_circle_today_color" format="color" />
+        <attr name="week_normal_text_color" format="color" />
+        <attr name="week_today_text_color" format="color" />
+        <attr name="week_hint_circle_color" format="color" />
+        <attr name="week_holiday_color" format="color" />
+        <attr name="week_lunar_text_color" format="color" />
+        <attr name="week_day_text_size" format="integer" />
+        <attr name="week_day_lunar_text_size" format="integer" />
+        <attr name="week_show_task_hint" format="boolean" />
+        <attr name="week_show_lunar" format="boolean" />
+        <attr name="week_show_holiday_hint" format="boolean" />
+        <attr name="week_count" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ScheduleLayout">
+        <attr name="default_view">
+            <enum name="month" value="0" />
+            <enum name="week" value="1" />
+        </attr>
+        <attr name="auto_change_month_row" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="DragDisplayBoard">
+        <attr name="board_select_circle_color" format="color" />
+        <attr name="board_select_border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ExpandableTextView">
+        <attr name="maxCollapsedLines" format="integer" />
+        <attr name="animDuration" format="integer" />
+        <attr name="animAlphaStart" format="float" />
+        <attr name="expandText" format="string" />
+        <attr name="collapseText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CircularImageView">
+        <attr name="border" format="boolean" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="shadow" format="boolean" />
+        <attr name="shadow_color" format="color" />
+        <attr name="shadow_radius" format="dimension" />
+    </declare-styleable>
+</resources>

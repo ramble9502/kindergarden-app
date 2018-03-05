@@ -1,0 +1,59 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+    defaultConfig {
+        applicationId "com.example.monic.myapplication"
+        minSdkVersion 17
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    aaptOptions {
+        cruncherEnabled = false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //use for splash
+
+
+    compile 'com.android.support:appcompat-v7:26.0.1'
+    compile 'com.android.support:design:26.0.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:recyclerview-v7:26.0.0-alpha1'
+    compile 'com.android.support:cardview-v7:26.0.0-alpha1'
+    compile 'com.google.firebase:firebase-core:11.2.2'
+    compile 'com.google.firebase:firebase-database:11.2.2'
+    compile 'com.google.firebase:firebase-storage:11.2.2'
+    compile 'com.google.firebase:firebase-messaging:11.2.2'
+    compile 'com.google.firebase:firebase-auth:11.2.2'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.android.support:support-vector-drawable:26.0.1'
+    testCompile 'junit:junit:4.12'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.1.1'
+    compile 'com.firebaseui:firebase-ui:2.3.0'
+    compile "com.google.android.gms:play-services-auth:11.2.2"
+    compile 'com.github.hani-momanii:SuperNova-Emoji:1.0'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'joda-time:joda-time:2.9.9'
+    compile 'net.codecrafted:lineartimepicker:1.0.0'
+    compile 'com.theartofdev.edmodo:android-image-cropper:2.3.1'
+    compile 'com.github.gcacace:signature-pad:1.2.1'
+    compile 'com.freesoulapps:preview-android:0.3.3'
+    compile 'com.github.vipulasri:timelineview:1.0.5'
+}
+apply plugin: 'com.google.gms.google-services'

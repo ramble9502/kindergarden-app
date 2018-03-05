@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "298309886865",
+    "firebase_url": "https://androidpackages-e5a5c.firebaseio.com",
+    "project_id": "androidpackages-e5a5c",
+    "storage_bucket": "androidpackages-e5a5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298309886865:android:bad05f5933c53b35",
+        "android_client_info": {
+          "package_name": "com.children.user.kindergarden"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298309886865-tb8bunmn4g3hdejjd91rktemie3gvm6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjAwCTLEABuOGWNExQOgxK25bBGKO0cGA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298309886865:android:26e8e147756f2bb1",
+        "android_client_info": {
+          "package_name": "com.example.monic.firebasechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298309886865-tb8bunmn4g3hdejjd91rktemie3gvm6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjAwCTLEABuOGWNExQOgxK25bBGKO0cGA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298309886865:android:1b17736f3a42b197",
+        "android_client_info": {
+          "package_name": "com.delaroystudios.firebasechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298309886865-tb8bunmn4g3hdejjd91rktemie3gvm6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjAwCTLEABuOGWNExQOgxK25bBGKO0cGA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298309886865:android:7610f058897bd76f",
+        "android_client_info": {
+          "package_name": "com.example.monic.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298309886865-tb8bunmn4g3hdejjd91rktemie3gvm6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjAwCTLEABuOGWNExQOgxK25bBGKO0cGA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
